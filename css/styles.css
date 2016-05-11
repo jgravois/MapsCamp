@@ -15,7 +15,7 @@ a:visited {
 p {
   color: white;
   font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-  font-weight: 200;
+  font-weight: 150;
 	 font-size: 1.25em;
 }
 
@@ -28,7 +28,7 @@ p a {
 .body {
 	text-align: center;
 	display: block;
-	margin-top: 5%;
+	margin-top: 1%;
 }
 
 
@@ -67,7 +67,7 @@ p.updates {
 
  
 #logo {
-	width: 260px;
+	width: 200px;
 	height: auto;
 	margin: 0 auto;
 	padding: 1.5625rem 3.5em 1.5625rem 1.5625rem;
@@ -101,5 +101,98 @@ p.updates {
 	color: white;
 	padding: .75em;
 	font: 11px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+
+
+
+
+
+
+/* BLOCKS */
+
+#blocks {
+	margin-top: 1em;
+	margin-right: auto;
+	clear: both;
+	width: 585px;
+	margin-left: auto;
+}
+
+#blocks p {
+	color: #515151;
+	font-size: .95rem;
+}
+
+#blocks a {
+	color: green;
+	border-bottom: 1px dotted green;
+}
+
+
+/* BLOCKS - Newsletter */
+
+.block {
+	margin: 2em auto 1em;
+	border: 1px solid green;
+	padding: 1em;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.block h2 {
+	color: green;
+  font: normal .85rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+}
+
+#newsletter {
+	background-color: rgba(255, 255, 255, 0.5);
+	width:300px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2em;
+	padding: 1em;
+}
+
+#newsletter h2 {
+	text-align: center;
+	font-size: 1rem!important;
+}
+
+#newsletter #mc_embed_signup {
+	background-color: transparent;
+}
+
+h4.block-title {
+	color: green;
+	font: bold 1.25rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin: 0;
+	padding-left: .5em;
+	text-align: center;
+}
+
+
+#community h4 {
+	text-align: center;
+}
+
+#community p {
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	text-align: center;
+}
+
+
+#register {
+	margin: 2em auto 2rem;
+	background-color: white;
+	height: 200px;
+	width: 100%;
+}
+
+#ticket_information_wrapper{
+  background: white;	
 }
 
