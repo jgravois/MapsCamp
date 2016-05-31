@@ -66,6 +66,11 @@ button {
     font-family: 'Mikado', Sans-Serif;
 }
 
+.disclaimer {
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: .5em;
+}
 /* Top Banner - - - - - - - - - - - */
 .sprinkle-background {
     width: 100%;
