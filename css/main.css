@@ -277,3 +277,22 @@ small {
     position: relative;
     bottom: 4px;
 }
+
+@media screen and (max-width: 720px) {
+   .flex {
+       -webkit-flex-direction: column;
+       -moz-flex-direction: column;
+       -ms-flex-direction: column;
+       -o-flex-direction: column;
+       flex-direction: column;
+   }
+   .events {
+       margin-left: 0;
+       padding-left: 2rem;
+       background-color: rgba(0,0,0,.5);
+   }
+   .event {
+       background-color: transparent;
+       border-left: 4px solid #438998;
+   }
+}
