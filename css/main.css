@@ -22,25 +22,25 @@ body {
 
 /* Fonts  - - - - - - - - - - - - - */
 @font-face {
-  font-family: 'Mikado';
-  src: url('../fonts/mikado-medium.woff2') format('woff2'),
-       url('../fonts/mikado-medium.woff') format('woff');
+  font-family: 'Open Sans';
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans')
+       url('https://fonts.googleapis.com/css?family=Open+Sans')
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Mikado';
-  src: url('../fonts/mikado-medium.woff2') format('woff2'),
-       url('../fonts/mikado-medium.woff') format('woff');
+  font-family: 'Open Sans';
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans')
+       url('https://fonts.googleapis.com/css?family=Open+Sans')
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Mikado';
-  src: url('../fonts/mikado-bold.woff2') format('woff2'),
-       url('../fonts/mikado-bold.woff') format('woff');
+  font-family: 'Open Sans';
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans')
+       url('https://fonts.googleapis.com/css?family=Open+Sans')
   font-weight: 700;
   font-style: normal;
 }
@@ -152,6 +152,7 @@ button {
     display: block;
     max-width: 70%;
     max-height: 20vh;
+    text-align: center;
 }
 
 @-webkit-keyframes spin {
@@ -210,6 +211,8 @@ button {
 .navigation-link-green:hover { background-color: #3CAF77; }
 .navigation-link-yellow { background-color: #EADF43; }
 .navigation-link-yellow:hover { background-color: #CFC217; }
+.navigation-link-darkblue { background-color: #00004C; }
+.navigation-link-darkblue:hover { background-color: #8c8cd6; }
 
 /* Content - - - - - - - - - - */
 .on-top {
