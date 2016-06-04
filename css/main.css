@@ -268,3 +268,12 @@ small {
     font-size: 20px;
     color: rgba(255,255,255,.8);
 }
+
+.support {
+    width: 155px;
+}
+
+.support.knuckleheads {
+    position: relative;
+    bottom: 4px;
+}
